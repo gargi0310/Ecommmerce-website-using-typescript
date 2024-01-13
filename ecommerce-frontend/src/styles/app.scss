@@ -36,7 +36,11 @@
   
   @import "admin-styles/mixin";
   @import "home";
-  @import "_cart.scss";
+  @import "_cart";
+  @import "_shipping";
+  @import "_login";
+
+
   
   @import "admin-styles/dashboard";
   @import "admin-styles/products";
@@ -88,7 +92,11 @@
   }
 
 
-
+.heading{
+  @include heading;
+  margin: 1rem 0;
+  text-align: center;
+}
 
 
 
